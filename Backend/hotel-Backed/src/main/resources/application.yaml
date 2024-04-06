@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: hotel-Backed 
+  datasource:
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
+  profiles:
+    active:
+    - dev
+      
+
+server:
+  port: 5454 

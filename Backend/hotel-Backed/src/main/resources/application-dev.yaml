@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hotel_database
+    username: postgres
+    password: yash
+    
+  jpa:
+    show-sql: true
